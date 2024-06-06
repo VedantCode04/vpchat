@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=REM:wght@100;200;300;400;600;700&family=Rubik:wght@300;400;500;600&display=swap");
+
+:root {
+  --blue: #00aeff;
+}
+
+body {
+  background-image: url("../img/appBg2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95vh;
+  width: 100vw;
+  font-family: "REM", sans-serif;
+  scroll-behavior: smooth;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin-top: -30px;
+  background-color: black;
+}
+
+.login-page {
+  width: 400px;
+  padding: 8% 0 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.reg {
+  width: 250px;
+  background-color: #ffffff;
+  height: 50px;
+  margin: -25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.reg p {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.form {
+  border-radius: 10px;
+  position: relative;
+  background: #ffffff;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.error {
+  max-width: 100%;
+  height: 30px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  display: none;
+}
+
+.error p {
+  color: rgb(255, 0, 0);
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.form input {
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #e8e8e8;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form .button {
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: var(--blue);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form .button:hover,
+.form .button:active,
+.form .button:focus {
+  background: #005982;
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.form .message a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+
+.pass-show {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+}
+
+.pass-show>span {
+  position: absolute;
+  height: 37px;
+  border: none;
+  border-radius: 6px;
+  padding: 4px 8px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  font-size: 30px;
+  color: #686868;
+  right: 8px;
+}
+
+.pass-show span:hover {
+  transform: scale(0.93);
+  cursor: pointer
+}
+
+.pfp-input {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.pfp-input span {
+  padding-left: 5px;
+}
+
+.verify {
+  width: 400px;
+  padding: 8% 0 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.verify .error {
+  display: block;
+}
