@@ -2,6 +2,20 @@
 
 This project is a simple chat application built using HTML, CSS, JavaScript, AJAX, PHP, and MySQL. Below are some images demonstrating the project's structure and functionality.
 
+## Features
+
+- User Registration and Login
+- OTP Verification
+- Real-Time Chat Functionality
+- User Management
+
+## Technologies Used
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: PHP
+- **Database**: MySQL
+- **AJAX**: For real-time updates
+
 ## Project Overview
 
 ### 1. Flowchart
@@ -37,24 +51,6 @@ This project is a simple chat application built using HTML, CSS, JavaScript, AJA
 ## How to Run
 
 1. Clone the repository.
-2. Import the `database.sql` file into your MySQL database.
+2. Import the `vpchat.sql` file into your MySQL database.
 3. Update the database connection details in the `config.php` file.
 4. Run the project using a local server like XAMPP or WAMP.
-
-## Features
-
-- User Registration and Login
-- OTP Verification
-- Real-Time Chat Functionality
-- User Management
-
-## Technologies Used
-
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: PHP
-- **Database**: MySQL
-- **AJAX**: For real-time updates
-
-## Screenshots
-
-Refer to the images above to see the project structure and features.
